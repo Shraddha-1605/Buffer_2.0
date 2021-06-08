@@ -40,7 +40,7 @@ d) ATM service and Loan Service are introduced .
 
 e) It automatically generates account number and pin number of each account .
 
-e) User can do all these operations smoothly .
+f) User can do all these operations smoothly .
 
 4.What’s is next for the project ?
 

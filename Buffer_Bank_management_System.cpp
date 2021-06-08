@@ -201,7 +201,14 @@ void Node:: Delete_Account()
     cout<<endl;
     if(val==temp->account_number)
     {
-
+        if(temp->right==NULL)
+        {
+            head=NULL;
+            delete(temp);
+            cout<<"         Account deleted successfully !!"<<endl;
+            cout<<endl;
+            return;
+        }
         head=temp->right;
         temp->right->left=NULL;
         temp->right=NULL;
